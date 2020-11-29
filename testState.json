@@ -1,0 +1,20 @@
+{
+    "board": [
+        [
+            false,
+            false,
+            true
+        ],
+        [
+            false,
+            false,
+            true
+        ],
+        [
+            true,
+            true,
+            null
+        ]
+    ],
+    "isCrossTurn": true
+}
