@@ -28,7 +28,8 @@
         <button id="pause" onclick="controller.isPaused = false" disabled>CONTINUAR</button>
         <button id="download" onclick="controller.downloadState()">Guardar</button>
         <h2>Carga una partida!</h2>
-        <input type="file" name="uploader" onchange="controller.loadState(this)">
+        <label for="uploader">Upload here</label>
+        <input id="uploader" type="file" name="uploader" onchange="controller.loadState(this)">
 
     </secion>
 </body>
